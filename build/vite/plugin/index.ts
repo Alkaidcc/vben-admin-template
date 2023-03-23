@@ -4,6 +4,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import legacy from '@vitejs/plugin-legacy'
 import progress from 'vite-plugin-progress'
 import windiCSS from 'vite-plugin-windicss'
+import Inspector from 'unplugin-vue-inspector/vite'
 import purgeIcons from 'vite-plugin-purge-icons'
 import VitePluginCertificate from 'vite-plugin-mkcert'
 import vueSetupExtend from 'unplugin-vue-setup-extend-plus/vite'
@@ -27,6 +28,8 @@ export function createVitePlugins(mode: string, viteEnv: ViteEnv, isBuild: boole
     vueJsx(),
     // 打包进度条
     progress(),
+    // 调试工具
+    Inspector(),
     // support name
     vueSetupExtend({}),
     VitePluginCertificate({

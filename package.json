@@ -2,9 +2,9 @@
   "name": "vben-admin",
   "version": "1.0.2",
   "author": {
-    "name": "xingyu4j",
-    "email": "xingyu4j@vip.qq.com",
-    "url": "https://gitee.com/xingyuv"
+    "name": "alkaidcc",
+    "email": "alkaidcc@qq.com",
+    "url": "https://github.com/alkaidcc"
   },
   "scripts": {
     "commit": "czg",
@@ -130,6 +130,7 @@
     "terser": "^5.16.6",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2",
+    "unplugin-vue-inspector": "^0.2.3",
     "unplugin-vue-setup-extend-plus": "^0.4.9",
     "vite": "^4.2.1",
     "vite-plugin-compression": "^0.5.1",
